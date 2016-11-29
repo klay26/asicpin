@@ -83,10 +83,10 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-uapp.com', port:
+
   # required for heroku
   #need prod URL
-  config.action_mailer.default_url_options = { host: 'philpin.herok 3000 }
+    config.action_mailer.default_url_options = { host: 'philpin.herokuapp.com' }
 
   # sets paper clip to upload images to amazon S3
   config.paperclip_defaults = {
